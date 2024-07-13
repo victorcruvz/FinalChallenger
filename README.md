@@ -1,13 +1,15 @@
-Challenger API
-Descripción
+# Challenger API
+
+## Descripción
 Challenger API es un programa desarrollado en Java 17 que consume una API de libros. Permite registrar, eliminar, listar, autenticar y actualizar datos en una base de datos mediante requisiciones de API.
 
-Instalación
+## Instalación
 Prerrequisitos
 Java 17
 Spring Framework
 Un programa para simular requisiciones de API (por ejemplo, Insomnia)
-Pasos para instalar
+
+## Pasos para instalar
 Clonar el repositorio:
 bash
 Copiar código
@@ -24,10 +26,11 @@ Ejecutar la aplicación:
 bash
 Copiar código
 mvn spring-boot:run
-Uso
+
+## Uso
 Para interactuar con la API, puedes utilizar Insomnia u otro simulador de requisiciones de API. A continuación, se muestran algunos ejemplos de cómo realizar diferentes operaciones.
 
-Ejemplo de Requisiciones
+## Ejemplo de Requisiciones
 En Insomnia, puedes enviar las siguientes requisiciones:
 
 GET: Para listar libros.
@@ -37,7 +40,7 @@ DELETE: Para eliminar un libro.
 
 ![image](https://github.com/user-attachments/assets/3c5d4045-1206-43d0-a227-a43327e0fa7b)
 
-Características
+## Características
 Registrar libros
 Eliminar libros
 Listar libros
@@ -46,5 +49,5 @@ Actualizar información de libros
 Licencia
 Este proyecto es de licencia libre.
 
-Contacto
+## Contacto
 Para cualquier duda o soporte, puedes contactarme a victorcruvz@gmail.com.
